@@ -1,0 +1,167 @@
+.main-photo{
+  background-image: url('../images/pic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:15px solid white;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.main-text{
+  p{
+    letter-spacing: 0.1rem;
+  }
+  h2{
+    letter-spacing: 0.2rem;
+  }
+
+}
+.fixed-top{
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.skill-title{
+  list-style:none;
+}
+.oracle{
+  list-style:none;
+}
+li.license{
+  padding: 24px 12px ;
+}
+.license{
+  img{
+  display:block;
+  }
+  ul{
+    margin-left: -24px;
+    margin-top: 8px;
+  }
+}
+.skills{
+  // background-color: $bggray;
+  margin: 0px;
+  padding: 0px;
+}
+.other{
+  padding: 24px 12px ;
+}
+.contact{
+  background-image: url('http://220.128.133.15/s1100218/images/contactBg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+
+.main.about{
+  background-image: url('../images/bg08.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-brand img{
+  vertical-align: center;
+}
+.project-row{
+  padding-left: 0px;
+  list-style: none;
+
+  .item{
+    // border: 1px solid $primary;
+    border-radius: 2px;
+    &:hover{
+      border: none;
+    }
+  }
+  
+ 
+}
+.project-link{
+  vertical-align: middle;
+}
+
+.project-demo{
+ text-decoration: none;
+ border:2px solid $primary;
+ padding: 5px;
+ font-size: 12px;
+ border-radius: 1px;
+}
+
+
+.main-title{
+  font-family: 'Encode Sans SC', sans-serif;
+}
+
+
+.ml15 {
+  letter-spacing: 0.1em;
+  .word {
+    display: inline-block;
+    line-height: 1em;
+    font-size: 70px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900; 
+    text-shadow: white  0.1em 0.1em 0.2em
+  }
+}
+.col-text{
+  height: 200px;
+}
+.about-text-skills ul,.service-Content ul{
+  list-style-type: circle;
+}
+
+.section-project{
+  background-color:#f8f9fa;
+}
+
+.service-Content-email{
+  font-size: 14px;
+}
+
+.img {
+  height: 200px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// 募資網站
+.img01{
+  background-image: url('https://github.com/a120220ms25/crowdfunding_platform/blob/main/index.jpg?raw=true');
+  // filter: saturate(2);
+
+}
+// 萬年曆
+.img02{
+  background-image: url('https://raw.githubusercontent.com/a120220ms25/php_monthlyCalendar/master/php_calender_pc.jpg');
+}
+
+
+
+// todolist
+.img03{
+  background-image: url('https://github.com/a120220ms25/pic/blob/master/js_todolist_pc.jpg?raw=true');
+}
+// coloreditor
+.img04{
+  background-image: url('../images/color_editor.jpg');
+}
+// react
+.img05{
+  background-image: url('../images/react01.jpg');
+}
+// 履歷系統
+.img06{
+  background-image: url('../images/cv_backend.jpg');
+}
+
+
