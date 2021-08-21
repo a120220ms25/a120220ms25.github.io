@@ -61,7 +61,7 @@
    width: 25%;
  }
 }
-
+// main
 .main.about{
   @include pad{
     background-image: url('../images/bg11.jpg') !important;
@@ -69,7 +69,15 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+}
+.main-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include pad{
+    align-items: start;
+  }
 }
 
 #project{

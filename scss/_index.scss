@@ -1,22 +1,4 @@
-.main-photo{
-  background-image: url('../images/pic.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  border:15px solid white;
-  width: 320px;
-  height: 320px;
-  border-radius: 50%;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-}
-.main-text{
-  p{
-    letter-spacing: 0.1rem;
-  }
-  h2{
-    letter-spacing: 0.2rem;
-  }
-
-}
+// header
 .fixed-top{
   position: fixed;
   right: 0;
@@ -24,6 +6,35 @@
   z-index: 1030;
 }
 
+// main
+.main{
+  .main-photo{
+    background-image: url('../images/pic.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:20px solid white;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.507) 0px 12px 28px 0px, rgba(0, 0, 0, 0.397) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  }
+  .main-text{
+    p{
+      letter-spacing: 0.1rem;
+      font-weight: 500;
+      color:black;
+      font-size: 14px;
+    }
+    h2{
+      letter-spacing: 0.2rem;
+    }
+    span{
+      font-weight: 900;
+    }
+  }
+}
+
+// web project
 .skill-title{
   list-style:none;
 }
@@ -42,11 +53,18 @@ li.license{
     margin-top: 8px;
   }
 }
+.license-text{
+  font-size: 12px;
+}
 .skills{
   // background-color: $bggray;
   margin: 0px;
   padding: 0px;
 }
+.service-Content ul li{
+  font-size: 12px;
+}
+
 .other{
   padding: 24px 12px ;
 }
@@ -68,6 +86,11 @@ li.license{
 .navbar-brand img{
   vertical-align: center;
 }
+
+// project
+.project-text ul li{
+  font-size: 12px;
+}
 .project-row{
   padding-left: 0px;
   list-style: none;
@@ -79,8 +102,6 @@ li.license{
       border: none;
     }
   }
-  
- 
 }
 .project-link{
   vertical-align: middle;
@@ -94,24 +115,10 @@ li.license{
  border-radius: 1px;
 }
 
-
 .main-title{
   font-family: 'Encode Sans SC', sans-serif;
 }
 
-
-.ml15 {
-  letter-spacing: 0.1em;
-  .word {
-    display: inline-block;
-    line-height: 1em;
-    font-size: 70px;
-    color:black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900; 
-    text-shadow: white  0.1em 0.1em 0.2em
-  }
-}
 .col-text{
   height: 200px;
 }

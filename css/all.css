@@ -14687,8 +14687,8 @@ a:hover {
 }
 
 .clear {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-          box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.74) 0px 10px 15px -3px, rgba(0, 0, 0, 0.726) 0px 4px 6px -2px;
+          box-shadow: rgba(0, 0, 0, 0.74) 0px 10px 15px -3px, rgba(0, 0, 0, 0.726) 0px 4px 6px -2px;
 }
 
 .blur {
@@ -14718,9 +14718,9 @@ a:hover {
   background-color: #fff;
   padding: 0px 2px;
   margin-right: 3px;
-  font-size: 10px;
+  font-size: 12px;
   border-radius: 3px;
-  color: gray;
+  color: black;
 }
 
 .button-group {
@@ -14794,6 +14794,35 @@ a:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+}
+
+.main-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 768px) {
+  .main-text {
+    -webkit-box-align: start;
+    -webkit-align-items: start;
+        -ms-flex-align: start;
+            align-items: start;
   }
 }
 
@@ -14972,31 +15001,38 @@ div.serviceBox {
   z-index: 11;
 }
 
-.main-photo {
-  background-image: url("../images/pic.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: 15px solid white;
-  width: 320px;
-  height: 320px;
-  border-radius: 50%;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-          box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-}
-
-.main-text p {
-  letter-spacing: 0.1rem;
-}
-
-.main-text h2, .main-text .h2 {
-  letter-spacing: 0.2rem;
-}
-
 .fixed-top {
   position: fixed;
   right: 0;
   left: 0;
   z-index: 1030;
+}
+
+.main .main-photo {
+  background-image: url("../images/pic.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 20px solid white;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.507) 0px 12px 28px 0px, rgba(0, 0, 0, 0.397) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+          box-shadow: rgba(0, 0, 0, 0.507) 0px 12px 28px 0px, rgba(0, 0, 0, 0.397) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.main .main-text p {
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  color: black;
+  font-size: 14px;
+}
+
+.main .main-text h2, .main .main-text .h2 {
+  letter-spacing: 0.2rem;
+}
+
+.main .main-text span {
+  font-weight: 900;
 }
 
 .skill-title {
@@ -15020,9 +15056,17 @@ li.license {
   margin-top: 8px;
 }
 
+.license-text {
+  font-size: 12px;
+}
+
 .skills {
   margin: 0px;
   padding: 0px;
+}
+
+.service-Content ul li {
+  font-size: 12px;
 }
 
 .other {
@@ -15046,6 +15090,10 @@ li.license {
 
 .navbar-brand img {
   vertical-align: center;
+}
+
+.project-text ul li {
+  font-size: 12px;
 }
 
 .project-row {
@@ -15075,20 +15123,6 @@ li.license {
 
 .main-title {
   font-family: 'Encode Sans SC', sans-serif;
-}
-
-.ml15 {
-  letter-spacing: 0.1em;
-}
-
-.ml15 .word {
-  display: inline-block;
-  line-height: 1em;
-  font-size: 70px;
-  color: black;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  text-shadow: white  0.1em 0.1em 0.2em;
 }
 
 .col-text {
