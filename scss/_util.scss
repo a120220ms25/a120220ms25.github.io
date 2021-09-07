@@ -1,5 +1,5 @@
 body{
-  font-family: 'Noto Sans JP', sans-serif;
+ 
   font-family: 'Roboto', sans-serif;
   color:$secondary;
   .header{
@@ -7,6 +7,10 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
     background-color: transparent;
     z-index: 999;
+  }
+  .main.about{
+  font-family: 'Noto Sans JP', sans-serif;
+
   }
 }
 

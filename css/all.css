@@ -14605,7 +14605,6 @@ fieldset:disabled .btn {
 }
 
 body {
-  font-family: 'Noto Sans JP', sans-serif;
   font-family: 'Roboto', sans-serif;
   color: #666666;
 }
@@ -14615,6 +14614,10 @@ body .header {
   font-family: 'Noto Sans JP', sans-serif;
   background-color: transparent;
   z-index: 999;
+}
+
+body .main.about {
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .container {
@@ -14790,7 +14793,6 @@ a:hover {
 
 @media (min-width: 768px) {
   .main.about {
-    background-image: url("../images/bg11.jpg") !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15013,8 +15015,8 @@ div.serviceBox {
   background-size: cover;
   background-repeat: no-repeat;
   border: 20px solid white;
-  width: 320px;
-  height: 320px;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
   -webkit-box-shadow: rgba(0, 0, 0, 0.507) 0px 12px 28px 0px, rgba(0, 0, 0, 0.397) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
           box-shadow: rgba(0, 0, 0, 0.507) 0px 12px 28px 0px, rgba(0, 0, 0, 0.397) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
@@ -15082,7 +15084,7 @@ li.license {
 }
 
 .main.about {
-  background-image: url("../images/bg08.jpg");
+  background-image: url("../images/bg (2).jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
